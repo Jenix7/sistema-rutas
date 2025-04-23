@@ -1,0 +1,275 @@
+[
+  {
+    "id": 1744236390679,
+    "name": "Ruta 1",
+    "color": "#8b5cf6",
+    "travelMode": "WALKING",
+    "isVisible": true,
+    "totalDurationMinutes": 177,
+    "walkingDurationMinutes": 177,
+    "drivingDurationMinutes": 97,
+    "markerPositions": [
+      {
+        "position": {
+          "lat": 41.3852206,
+          "lng": 2.1402073
+        },
+        "title": "Autoescola Pallars Les Corts - Autoescola Barcelona"
+      },
+      {
+        "position": {
+          "lat": 41.3865867,
+          "lng": 2.1363775
+        },
+        "title": "Autoescuela Barcelona - Súper Express 🐵🚙"
+      },
+      {
+        "position": {
+          "lat": 41.3897994,
+          "lng": 2.1384483
+        },
+        "title": "Autoescuela Montero Espinosa"
+      },
+      {
+        "position": {
+          "lat": 41.3844249,
+          "lng": 2.1491414
+        },
+        "title": "Autoescuela Stop Barcelona"
+      },
+      {
+        "position": {
+          "lat": 41.3937136,
+          "lng": 2.1406291
+        },
+        "title": "Autoescuela Corsa Bori i Fontestà"
+      },
+      {
+        "position": {
+          "lat": 41.3917516,
+          "lng": 2.1532491
+        },
+        "title": "RACC Autoescola Barcelona Còrsega"
+      },
+      {
+        "position": {
+          "lat": 41.3932445,
+          "lng": 2.1308229
+        },
+        "title": "Autoescuela Diesel"
+      },
+      {
+        "position": {
+          "lat": 41.3969383,
+          "lng": 2.14222
+        },
+        "title": "Autoescuela Amigó"
+      },
+      {
+        "position": {
+          "lat": 41.3975762,
+          "lng": 2.1319435
+        },
+        "title": "Autoescuela Driving Bcn"
+      },
+      {
+        "position": {
+          "lat": 41.4033522,
+          "lng": 2.1345852
+        },
+        "title": "Autoescuelas Munta&Biker's BCN"
+      },
+      {
+        "position": {
+          "lat": 41.4026867,
+          "lng": 2.1522761
+        },
+        "title": "RACC Autoescola Barcelona Gràcia"
+      },
+      {
+        "position": {
+          "lat": 41.4046826,
+          "lng": 2.1560776
+        },
+        "title": "Autoescuela Oton"
+      },
+      {
+        "position": {
+          "lat": 41.3972087,
+          "lng": 2.1552676
+        },
+        "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.3962181,
+          "lng": 2.1572625
+        },
+        "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.392542,
+          "lng": 2.1693448
+        },
+        "title": "Autoescuela SOY18 Diputació"
+      },
+      {
+        "position": {
+          "lat": 41.3901853,
+          "lng": 2.15729
+        },
+        "title": "Autoescuela Aribau"
+      },
+      {
+        "position": {
+          "lat": 41.3801461,
+          "lng": 2.1569585
+        },
+        "title": "hoy-voy Autoescuela"
+      }
+    ]
+  },
+  {
+    "id": 1745391737471,
+    "name": "Ruta 2",
+    "color": "#ef4444",
+    "travelMode": "WALKING",
+    "isVisible": false,
+    "totalDurationMinutes": 27,
+    "walkingDurationMinutes": 27,
+    "drivingDurationMinutes": 11,
+    "markerPositions": [
+      {
+        "position": {
+          "lat": 41.38485319999999,
+          "lng": 2.1292485
+        },
+        "title": "Autoescuela Pedralbes"
+      },
+      {
+        "position": {
+          "lat": 41.3789232,
+          "lng": 2.1345262
+        },
+        "title": "Autoescuela Blanco Online"
+      },
+      {
+        "position": {
+          "lat": 41.3797094,
+          "lng": 2.1441469
+        },
+        "title": "Autoescuelas Hostafrancs"
+      }
+    ]
+  },
+  {
+    "id": 1745395651140,
+    "name": "Ruta 3",
+    "color": "#3b82f6",
+    "travelMode": "WALKING",
+    "isVisible": false,
+    "totalDurationMinutes": 9,
+    "walkingDurationMinutes": 9,
+    "drivingDurationMinutes": 8,
+    "markerPositions": [
+      {
+        "position": {
+          "lat": 41.3778817,
+          "lng": 2.1259945
+        },
+        "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.3763925,
+          "lng": 2.123353
+        },
+        "title": "RACC Autoescola SANTS - BADAL"
+      },
+      {
+        "position": {
+          "lat": 41.376271,
+          "lng": 2.1203811
+        },
+        "title": "Autoescuela SOY18 Hospitalet"
+      }
+    ]
+  },
+  {
+    "id": 1745399135797,
+    "name": "Ruta 4",
+    "color": "#10b981",
+    "travelMode": "WALKING",
+    "isVisible": false,
+    "totalDurationMinutes": 0,
+    "walkingDurationMinutes": 0,
+    "drivingDurationMinutes": 0,
+    "markerPositions": []
+  },
+  {
+    "id": 1745399137679,
+    "name": "Ruta 5",
+    "color": "#f59e0b",
+    "travelMode": "WALKING",
+    "isVisible": false,
+    "totalDurationMinutes": 0,
+    "walkingDurationMinutes": 0,
+    "drivingDurationMinutes": 0,
+    "markerPositions": []
+  },
+  {
+    "id": 1745399138061,
+    "name": "Ruta 6",
+    "color": "#ec4899",
+    "travelMode": "WALKING",
+    "isVisible": false,
+    "totalDurationMinutes": 31,
+    "walkingDurationMinutes": 31,
+    "drivingDurationMinutes": 26,
+    "markerPositions": [
+      {
+        "position": {
+          "lat": 41.4023528,
+          "lng": 2.1593756
+        },
+        "title": "Autoescuela Bahía-Barcelona- Travessera de Gràcia 187"
+      },
+      {
+        "position": {
+          "lat": 41.4025118,
+          "lng": 2.1630666
+        },
+        "title": "Autoescuela DAR"
+      },
+      {
+        "position": {
+          "lat": 41.4058174,
+          "lng": 2.1623318
+        },
+        "title": "Autoescuela Joanic"
+      },
+      {
+        "position": {
+          "lat": 41.4097914,
+          "lng": 2.1643401
+        },
+        "title": "RACC Autoescola Guinardó"
+      },
+      {
+        "position": {
+          "lat": 41.4116273,
+          "lng": 2.1639429
+        },
+        "title": "Autoescuela SOY18 Guinardó"
+      },
+      {
+        "position": {
+          "lat": 41.4136729,
+          "lng": 2.1617288
+        },
+        "title": "AUTOESCUELA SANLLEHY"
+      }
+    ]
+  }
+]
