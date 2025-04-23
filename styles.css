@@ -405,7 +405,8 @@ textarea.input-control {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background-color: var(--info);
+    background-color: var(--secondary);
+    /* Cambiado de var(--info) a var(--secondary) */
     color: white;
     text-decoration: none;
 }
