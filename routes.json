@@ -14,28 +14,32 @@
           "lat": 41.3754943,
           "lng": 2.1409454
         },
-        "title": "Autoescuelas Hostafrancs"
+        "title": "Autoescuelas Hostafrancs",
+        "address": "Carrer de la Creu Coberta, 130, Sants-Montjuïc, 08014 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3797094,
           "lng": 2.1441469
         },
-        "title": "Autoescuelas Hostafrancs"
+        "title": "Autoescuelas Hostafrancs",
+        "address": "Carrer de Tarragona, 106, L'Eixample, 08015 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3810765,
           "lng": 2.1467046
         },
-        "title": "La Meva Autoescuela"
+        "title": "La Meva Autoescuela",
+        "address": "Carrer de Vilamarí, 130 bxs, L'Eixample, 08015 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3844249,
           "lng": 2.1491414
         },
-        "title": "Autoescuela Stop Barcelona"
+        "title": "Autoescuela Stop Barcelona",
+        "address": "Carrer de Calàbria, 202, L'Eixample, 08029 Barcelona, España"
       }
     ]
   },
@@ -44,7 +48,7 @@
     "name": "Ruta 2",
     "color": "#ef4444",
     "travelMode": "WALKING",
-    "isVisible": true,
+    "isVisible": false,
     "totalDurationMinutes": 16,
     "walkingDurationMinutes": 16,
     "drivingDurationMinutes": 10,
@@ -54,28 +58,32 @@
           "lat": 41.3773074,
           "lng": 2.1533111
         },
-        "title": "Autoescuela Montero Espinosa"
+        "title": "Autoescuela Montero Espinosa",
+        "address": "Carrer d'Entença, 43, L'Eixample, 08015 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3801461,
           "lng": 2.1569585
         },
-        "title": "hoy-voy Autoescuela"
+        "title": "hoy-voy Autoescuela",
+        "address": "Carrer de Viladomat, 114, L'Eixample, 08015 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3785624,
           "lng": 2.1584051
         },
-        "title": "hoy-voy Autoescuela Badalona | Salida de prácticas Poble Sec"
+        "title": "hoy-voy Autoescuela Badalona | Salida de prácticas Poble Sec",
+        "address": "Carrer de Floridablanca, 69, L'Eixample, 08015 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3758099,
           "lng": 2.1613987
         },
-        "title": "Autoescola Pallars Parlament"
+        "title": "Autoescola Pallars Parlament",
+        "address": "Carrer del Parlament, 11, L'Eixample, 08015 Barcelona, España"
       }
     ]
   },
@@ -84,7 +92,7 @@
     "name": "Ruta 3",
     "color": "#3b82f6",
     "travelMode": "WALKING",
-    "isVisible": false,
+    "isVisible": true,
     "totalDurationMinutes": 165,
     "walkingDurationMinutes": 165,
     "drivingDurationMinutes": 67,
@@ -94,112 +102,128 @@
           "lat": 41.3789232,
           "lng": 2.1345262
         },
-        "title": "Autoescuela Blanco Online"
+        "title": "Autoescuela Blanco Online",
+        "address": "Carrer de Galileu, 111, Sants-Montjuïc, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3778817,
           "lng": 2.1259945
         },
-        "title": "hoy-voy Autoescuela"
+        "title": "hoy-voy Autoescuela",
+        "address": "Av. de Madrid, 55, 59, Distrito de Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3758705,
           "lng": 2.1251362
         },
-        "title": "Autoescola Pallars Sants - Autoescuela Barcelona"
+        "title": "Autoescola Pallars Sants - Autoescuela Barcelona",
+        "address": "Carrer d'Arizala, 1-3, Sants-Montjuïc, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3763925,
           "lng": 2.123353
         },
-        "title": "RACC Autoescola SANTS - BADAL"
+        "title": "RACC Autoescola SANTS - BADAL",
+        "address": "Av. de Madrid, 9, Bajos 2, Distrito de Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.376271,
           "lng": 2.1203811
         },
-        "title": "Autoescuela SOY18 Hospitalet"
+        "title": "Autoescuela SOY18 Hospitalet",
+        "address": "Carrer Francesc Layret, 4, 08903 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.375584,
           "lng": 2.1194088
         },
-        "title": "Sunyé Autoescuela Barcelona"
+        "title": "Sunyé Autoescuela Barcelona",
+        "address": "Carr. de Collblanc, 37, 08903 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3752791,
           "lng": 2.1200552
         },
-        "title": "La del Pasaje Autoescola"
+        "title": "La del Pasaje Autoescola",
+        "address": "Metro Collblanc, Passatge Costa, 8, 08903 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.38485319999999,
           "lng": 2.1292485
         },
-        "title": "Autoescuela Pedralbes"
+        "title": "Autoescuela Pedralbes",
+        "address": "Carrer del Taquígraf Martí, 4, local, Distrito de Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3820801,
           "lng": 2.1140924
         },
-        "title": "Hoy voy Hospitalet zona universitaria 2"
+        "title": "Hoy voy Hospitalet zona universitaria 2",
+        "address": "Av. Dr. Marañón, 4034, Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3782273,
           "lng": 2.1086704
         },
-        "title": "Hoy voy Hospitalet Zona universitaria 1"
+        "title": "Hoy voy Hospitalet Zona universitaria 1",
+        "address": "Av. d'Albert Bastardas, 10, Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3824897,
           "lng": 2.1066366
         },
-        "title": "RACC Autoescuela Barcelona Zona Universitaria"
+        "title": "RACC Autoescuela Barcelona Zona Universitaria",
+        "address": "Av. Diagonal, 687, Les Corts, 08028 Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3679188,
           "lng": 2.0991748
         },
-        "title": "Autoescuela Líder Badalona"
+        "title": "Autoescuela Líder Badalona",
+        "address": "Carrer Oriental, 2, 08906 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3682015,
           "lng": 2.112965
         },
-        "title": "Autoescola L'Hospitalet de Llobregat"
+        "title": "Autoescola L'Hospitalet de Llobregat",
+        "address": "Av. de Catalunya, 5, 08905 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3691254,
           "lng": 2.1137364
         },
-        "title": "Autoescuela SOY18"
+        "title": "Autoescuela SOY18",
+        "address": "Av. Ponent, 37, 08905 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.3668103,
           "lng": 2.1240888
         },
-        "title": "hoy-voy Autoescuela"
+        "title": "hoy-voy Autoescuela",
+        "address": "Carrer Santa Eulàlia, 174, 08902 L'Hospitalet de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.367056,
           "lng": 2.1275351
         },
-        "title": "RACC Autoescola Santa Eulalia"
+        "title": "RACC Autoescola Santa Eulalia",
+        "address": "Carrer Santa Eulàlia, 69, 08902 L'Hospitalet de Llobregat, Barcelona, España"
       }
     ]
   },
@@ -218,14 +242,16 @@
           "lat": 41.3643732,
           "lng": 2.0764184
         },
-        "title": "Autoescuela Requena"
+        "title": "Autoescuela Requena",
+        "address": "Carrer de Cornellà Modern, 65, 08940 Cornellà de Llobregat, Barcelona, España"
       },
       {
         "position": {
           "lat": 41.362071,
           "lng": 2.0788592
         },
-        "title": "Autoescuela Liñan"
+        "title": "Autoescuela Liñan",
+        "address": "Carrer de Mossèn Andreu, 29, 08940 Cornellà de Llobregat, Barcelona, España"
       }
     ]
   }

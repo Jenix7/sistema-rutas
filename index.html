@@ -7,6 +7,27 @@
     <title>Sistema de Rutas</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Estilos adicionales para el header centrado */
+        .app-header-centered {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #E5E7EB;
+            margin-bottom: 1.5rem;
+        }
+
+        .app-header-centered h1 {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0 1rem;
+        }
+
+        .header-button {
+            min-width: 2.5rem;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,12 +68,14 @@
 
     <!-- Route Detail Page -->
     <div id="routeDetail" class="container hidden">
-        <header class="app-header">
-            <button id="backButton" class="btn-icon">
+        <header class="app-header-centered">
+            <button id="backButton" class="btn-icon header-button">
                 <i class="fas fa-arrow-left"></i>
             </button>
             <h1 id="routeTitle">Detalles de Ruta</h1>
-            <!-- Botón de guardar eliminado -->
+            <a id="completeRouteButton" href="#" target="_blank" class="btn-icon header-button">
+                <i class="fas fa-route"></i>
+            </a>
         </header>
 
         <div class="route-stats">

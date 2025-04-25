@@ -36,6 +36,7 @@ const elements = {
     notDeliveredCount: document.getElementById('notDeliveredCount'),
     pendingCount: document.getElementById('pendingCount'),
     markersTableBody: document.getElementById('markersTableBody'),
+    completeRouteButton: document.getElementById('completeRouteButton'),
 
     // Delivery Modal
     deliveryModal: document.getElementById('deliveryModal'),
@@ -54,6 +55,7 @@ const elements = {
 const PASSWORD = 'AEM';
 const ROUTES_JSON_PATH = 'routes.json';
 const STORAGE_KEY = 'routeDeliveryStatus';
+const REQUIRE_PASSWORD = false; // Cambiar a true para activar la autenticación
 
 // Helper Functions
 function showPage(pageElement) {
@@ -76,8 +78,39 @@ function getAddress(position) {
     return `Lat: ${position.lat.toFixed(6)}, Lng: ${position.lng.toFixed(6)}`;
 }
 
-function getMapsUrl(position) {
-    return `https://www.google.com/maps/search/?api=1&query=${position.lat},${position.lng}`;
+// Función modificada para usar la dirección postal en lugar de coordenadas
+function getMapsUrl(marker) {
+    // Usar título y dirección para la búsqueda en Google Maps
+    const searchQuery = encodeURIComponent(`${marker.title}, ${marker.address}`);
+    return `https://www.google.com/maps/search/?api=1&query=${searchQuery}`;
+}
+
+// Función para generar URL con ruta completa
+function getCompleteRouteUrl(route) {
+    if (!route.markerPositions || route.markerPositions.length === 0) {
+        return '';
+    }
+
+    // El primer lugar será el origen
+    const origin = encodeURIComponent(`${route.markerPositions[0].title}, ${route.markerPositions[0].address}`);
+
+    // El último lugar será el destino
+    const lastIndex = route.markerPositions.length - 1;
+    const destination = encodeURIComponent(`${route.markerPositions[lastIndex].title}, ${route.markerPositions[lastIndex].address}`);
+
+    // Lugares intermedios serán waypoints
+    let waypoints = '';
+    if (route.markerPositions.length > 2) {
+        const waypointsList = route.markerPositions.slice(1, lastIndex).map(marker => {
+            return encodeURIComponent(`${marker.title}, ${marker.address}`);
+        });
+        waypoints = `&waypoints=${waypointsList.join('|')}`;
+    }
+
+    // Determinar el modo de viaje (DRIVING o WALKING)
+    const travelMode = route.travelMode === 'WALKING' ? 'walking' : 'driving';
+
+    return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}${waypoints}&travelmode=${travelMode}`;
 }
 
 async function getSavedData() {
@@ -305,6 +338,11 @@ function openRouteDetail(route) {
     APP_STATE.currentRoute = route;
     elements.routeTitle.textContent = route.name;
 
+    // Configurar enlace de ruta completa
+    if (elements.completeRouteButton) {
+        elements.completeRouteButton.href = getCompleteRouteUrl(route);
+    }
+
     renderRouteDetail();
     showPage(elements.routeDetail);
 }
@@ -356,7 +394,8 @@ function renderRouteDetail() {
             }
 
             const markerData = routeData.markers[index];
-            const mapsUrl = getMapsUrl(marker.position);
+            // Modificamos aquí para pasar el marcador completo en lugar de solo la posición
+            const mapsUrl = getMapsUrl(marker);
 
             // Create marker row
             const row = document.createElement('tr');
@@ -526,6 +565,12 @@ function setupEventListeners() {
 }
 
 function handleLogin() {
+    // Si no se requiere contraseña, iniciar sesión automáticamente
+    if (!REQUIRE_PASSWORD) {
+        proceedToMainMenu();
+        return;
+    }
+
     const password = elements.passwordInput.value;
 
     if (password === PASSWORD) {
@@ -533,18 +578,24 @@ function handleLogin() {
         elements.passwordError.classList.add('hidden');
         elements.passwordInput.value = '';
 
-        loadRouteData().then(success => {
-            if (success) {
-                renderRoutes();
-                showPage(elements.mainMenu);
-            } else {
-                alert('Error al cargar los datos de rutas. Inténtelo de nuevo.');
-            }
-        });
+        proceedToMainMenu();
     } else {
         elements.passwordError.classList.remove('hidden');
         elements.passwordInput.focus();
     }
+}
+
+function proceedToMainMenu() {
+    APP_STATE.isAuthenticated = true;
+
+    loadRouteData().then(success => {
+        if (success) {
+            renderRoutes();
+            showPage(elements.mainMenu);
+        } else {
+            alert('Error al cargar los datos de rutas. Inténtelo de nuevo.');
+        }
+    });
 }
 
 function handleLogout() {
@@ -556,9 +607,13 @@ function handleLogout() {
 
 // Check if user was previously authenticated
 function checkAuthentication() {
-    // For this app we don't persist authentication
-    // We always start with the login page
-    showPage(elements.loginPage);
+    // Si no se requiere contraseña, ir directamente al menú principal
+    if (!REQUIRE_PASSWORD) {
+        handleLogin(); // Esto llamará a proceedToMainMenu automáticamente
+    } else {
+        // Si se requiere contraseña, mostrar la página de login
+        showPage(elements.loginPage);
+    }
 }
 
 // Initialization
