@@ -1,34 +1,34 @@
 [
   {
-    "id": 1744236390679,
+    "id": 1745568006203,
     "name": "Ruta 1",
     "color": "#8b5cf6",
     "travelMode": "WALKING",
-    "isVisible": true,
-    "totalDurationMinutes": 177,
-    "walkingDurationMinutes": 177,
-    "drivingDurationMinutes": 97,
+    "isVisible": false,
+    "totalDurationMinutes": 24,
+    "walkingDurationMinutes": 24,
+    "drivingDurationMinutes": 10,
     "markerPositions": [
       {
         "position": {
-          "lat": 41.3852206,
-          "lng": 2.1402073
+          "lat": 41.3754943,
+          "lng": 2.1409454
         },
-        "title": "Autoescola Pallars Les Corts - Autoescola Barcelona"
+        "title": "Autoescuelas Hostafrancs"
       },
       {
         "position": {
-          "lat": 41.3865867,
-          "lng": 2.1363775
+          "lat": 41.3797094,
+          "lng": 2.1441469
         },
-        "title": "Autoescuela Barcelona - Súper Express 🐵🚙"
+        "title": "Autoescuelas Hostafrancs"
       },
       {
         "position": {
-          "lat": 41.3897994,
-          "lng": 2.1384483
+          "lat": 41.3810765,
+          "lng": 2.1467046
         },
-        "title": "Autoescuela Montero Espinosa"
+        "title": "La Meva Autoescuela"
       },
       {
         "position": {
@@ -36,90 +36,25 @@
           "lng": 2.1491414
         },
         "title": "Autoescuela Stop Barcelona"
-      },
+      }
+    ]
+  },
+  {
+    "id": 1745568014346,
+    "name": "Ruta 2",
+    "color": "#ef4444",
+    "travelMode": "WALKING",
+    "isVisible": true,
+    "totalDurationMinutes": 16,
+    "walkingDurationMinutes": 16,
+    "drivingDurationMinutes": 10,
+    "markerPositions": [
       {
         "position": {
-          "lat": 41.3937136,
-          "lng": 2.1406291
+          "lat": 41.3773074,
+          "lng": 2.1533111
         },
-        "title": "Autoescuela Corsa Bori i Fontestà"
-      },
-      {
-        "position": {
-          "lat": 41.3917516,
-          "lng": 2.1532491
-        },
-        "title": "RACC Autoescola Barcelona Còrsega"
-      },
-      {
-        "position": {
-          "lat": 41.3932445,
-          "lng": 2.1308229
-        },
-        "title": "Autoescuela Diesel"
-      },
-      {
-        "position": {
-          "lat": 41.3969383,
-          "lng": 2.14222
-        },
-        "title": "Autoescuela Amigó"
-      },
-      {
-        "position": {
-          "lat": 41.3975762,
-          "lng": 2.1319435
-        },
-        "title": "Autoescuela Driving Bcn"
-      },
-      {
-        "position": {
-          "lat": 41.4033522,
-          "lng": 2.1345852
-        },
-        "title": "Autoescuelas Munta&Biker's BCN"
-      },
-      {
-        "position": {
-          "lat": 41.4026867,
-          "lng": 2.1522761
-        },
-        "title": "RACC Autoescola Barcelona Gràcia"
-      },
-      {
-        "position": {
-          "lat": 41.4046826,
-          "lng": 2.1560776
-        },
-        "title": "Autoescuela Oton"
-      },
-      {
-        "position": {
-          "lat": 41.3972087,
-          "lng": 2.1552676
-        },
-        "title": "hoy-voy Autoescuela"
-      },
-      {
-        "position": {
-          "lat": 41.3962181,
-          "lng": 2.1572625
-        },
-        "title": "hoy-voy Autoescuela"
-      },
-      {
-        "position": {
-          "lat": 41.392542,
-          "lng": 2.1693448
-        },
-        "title": "Autoescuela SOY18 Diputació"
-      },
-      {
-        "position": {
-          "lat": 41.3901853,
-          "lng": 2.15729
-        },
-        "title": "Autoescuela Aribau"
+        "title": "Autoescuela Montero Espinosa"
       },
       {
         "position": {
@@ -127,26 +62,33 @@
           "lng": 2.1569585
         },
         "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.3785624,
+          "lng": 2.1584051
+        },
+        "title": "hoy-voy Autoescuela Badalona | Salida de prácticas Poble Sec"
+      },
+      {
+        "position": {
+          "lat": 41.3758099,
+          "lng": 2.1613987
+        },
+        "title": "Autoescola Pallars Parlament"
       }
     ]
   },
   {
-    "id": 1745391737471,
-    "name": "Ruta 2",
-    "color": "#ef4444",
+    "id": 1745568068071,
+    "name": "Ruta 3",
+    "color": "#3b82f6",
     "travelMode": "WALKING",
     "isVisible": false,
-    "totalDurationMinutes": 27,
-    "walkingDurationMinutes": 27,
-    "drivingDurationMinutes": 11,
+    "totalDurationMinutes": 165,
+    "walkingDurationMinutes": 165,
+    "drivingDurationMinutes": 67,
     "markerPositions": [
-      {
-        "position": {
-          "lat": 41.38485319999999,
-          "lng": 2.1292485
-        },
-        "title": "Autoescuela Pedralbes"
-      },
       {
         "position": {
           "lat": 41.3789232,
@@ -156,29 +98,17 @@
       },
       {
         "position": {
-          "lat": 41.3797094,
-          "lng": 2.1441469
-        },
-        "title": "Autoescuelas Hostafrancs"
-      }
-    ]
-  },
-  {
-    "id": 1745395651140,
-    "name": "Ruta 3",
-    "color": "#3b82f6",
-    "travelMode": "WALKING",
-    "isVisible": false,
-    "totalDurationMinutes": 9,
-    "walkingDurationMinutes": 9,
-    "drivingDurationMinutes": 8,
-    "markerPositions": [
-      {
-        "position": {
           "lat": 41.3778817,
           "lng": 2.1259945
         },
         "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.3758705,
+          "lng": 2.1251362
+        },
+        "title": "Autoescola Pallars Sants - Autoescuela Barcelona"
       },
       {
         "position": {
@@ -193,82 +123,109 @@
           "lng": 2.1203811
         },
         "title": "Autoescuela SOY18 Hospitalet"
+      },
+      {
+        "position": {
+          "lat": 41.375584,
+          "lng": 2.1194088
+        },
+        "title": "Sunyé Autoescuela Barcelona"
+      },
+      {
+        "position": {
+          "lat": 41.3752791,
+          "lng": 2.1200552
+        },
+        "title": "La del Pasaje Autoescola"
+      },
+      {
+        "position": {
+          "lat": 41.38485319999999,
+          "lng": 2.1292485
+        },
+        "title": "Autoescuela Pedralbes"
+      },
+      {
+        "position": {
+          "lat": 41.3820801,
+          "lng": 2.1140924
+        },
+        "title": "Hoy voy Hospitalet zona universitaria 2"
+      },
+      {
+        "position": {
+          "lat": 41.3782273,
+          "lng": 2.1086704
+        },
+        "title": "Hoy voy Hospitalet Zona universitaria 1"
+      },
+      {
+        "position": {
+          "lat": 41.3824897,
+          "lng": 2.1066366
+        },
+        "title": "RACC Autoescuela Barcelona Zona Universitaria"
+      },
+      {
+        "position": {
+          "lat": 41.3679188,
+          "lng": 2.0991748
+        },
+        "title": "Autoescuela Líder Badalona"
+      },
+      {
+        "position": {
+          "lat": 41.3682015,
+          "lng": 2.112965
+        },
+        "title": "Autoescola L'Hospitalet de Llobregat"
+      },
+      {
+        "position": {
+          "lat": 41.3691254,
+          "lng": 2.1137364
+        },
+        "title": "Autoescuela SOY18"
+      },
+      {
+        "position": {
+          "lat": 41.3668103,
+          "lng": 2.1240888
+        },
+        "title": "hoy-voy Autoescuela"
+      },
+      {
+        "position": {
+          "lat": 41.367056,
+          "lng": 2.1275351
+        },
+        "title": "RACC Autoescola Santa Eulalia"
       }
     ]
   },
   {
-    "id": 1745399135797,
+    "id": 1745569174382,
     "name": "Ruta 4",
     "color": "#10b981",
     "travelMode": "WALKING",
     "isVisible": false,
-    "totalDurationMinutes": 0,
-    "walkingDurationMinutes": 0,
-    "drivingDurationMinutes": 0,
-    "markerPositions": []
-  },
-  {
-    "id": 1745399137679,
-    "name": "Ruta 5",
-    "color": "#f59e0b",
-    "travelMode": "WALKING",
-    "isVisible": false,
-    "totalDurationMinutes": 0,
-    "walkingDurationMinutes": 0,
-    "drivingDurationMinutes": 0,
-    "markerPositions": []
-  },
-  {
-    "id": 1745399138061,
-    "name": "Ruta 6",
-    "color": "#ec4899",
-    "travelMode": "WALKING",
-    "isVisible": false,
-    "totalDurationMinutes": 31,
-    "walkingDurationMinutes": 31,
-    "drivingDurationMinutes": 26,
+    "totalDurationMinutes": 7,
+    "walkingDurationMinutes": 7,
+    "drivingDurationMinutes": 3,
     "markerPositions": [
       {
         "position": {
-          "lat": 41.4023528,
-          "lng": 2.1593756
+          "lat": 41.3643732,
+          "lng": 2.0764184
         },
-        "title": "Autoescuela Bahía-Barcelona- Travessera de Gràcia 187"
+        "title": "Autoescuela Requena"
       },
       {
         "position": {
-          "lat": 41.4025118,
-          "lng": 2.1630666
+          "lat": 41.362071,
+          "lng": 2.0788592
         },
-        "title": "Autoescuela DAR"
-      },
-      {
-        "position": {
-          "lat": 41.4058174,
-          "lng": 2.1623318
-        },
-        "title": "Autoescuela Joanic"
-      },
-      {
-        "position": {
-          "lat": 41.4097914,
-          "lng": 2.1643401
-        },
-        "title": "RACC Autoescola Guinardó"
-      },
-      {
-        "position": {
-          "lat": 41.4116273,
-          "lng": 2.1639429
-        },
-        "title": "Autoescuela SOY18 Guinardó"
-      },
-      {
-        "position": {
-          "lat": 41.4136729,
-          "lng": 2.1617288
-        },
-        "title": "AUTOESCUELA SANLLEHY"
+        "title": "Autoescuela Liñan"
       }
     ]
   }
