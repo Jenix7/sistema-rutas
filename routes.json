@@ -92,10 +92,10 @@
     "name": "Ruta 3",
     "color": "#3b82f6",
     "travelMode": "WALKING",
-    "isVisible": true,
+    "isVisible": false,
     "totalDurationMinutes": 165,
     "walkingDurationMinutes": 165,
-    "drivingDurationMinutes": 67,
+    "drivingDurationMinutes": 66,
     "markerPositions": [
       {
         "position": {
@@ -228,30 +228,230 @@
     ]
   },
   {
-    "id": 1745569174382,
-    "name": "Ruta 4",
-    "color": "#10b981",
-    "travelMode": "WALKING",
-    "isVisible": false,
-    "totalDurationMinutes": 7,
-    "walkingDurationMinutes": 7,
-    "drivingDurationMinutes": 3,
+    "id": 1747149300075,
+    "name": "Ruta 5",
+    "color": "#f59e0b",
+    "travelMode": "DRIVING",
+    "isVisible": true,
+    "totalDurationMinutes": 102,
+    "walkingDurationMinutes": 177,
+    "drivingDurationMinutes": 102,
     "markerPositions": [
       {
         "position": {
-          "lat": 41.3643732,
-          "lng": 2.0764184
+          "lat": 41.404683,
+          "lng": 2.1560346
         },
-        "title": "Autoescuela Requena",
-        "address": "Carrer de Cornellà Modern, 65, 08940 Cornellà de Llobregat, Barcelona, España"
+        "title": "Autoescuela Oton",
+        "address": "Carrer de Verdi, 56, Gràcia, 08012 Barcelona, España"
       },
       {
         "position": {
-          "lat": 41.362071,
-          "lng": 2.0788592
+          "lat": 41.4023528,
+          "lng": 2.1593756
         },
-        "title": "Autoescuela Liñan",
-        "address": "Carrer de Mossèn Andreu, 29, 08940 Cornellà de Llobregat, Barcelona, España"
+        "title": "Autoescuela Bahía-Barcelona- Travessera de Gràcia 187",
+        "address": "Travessera de Gràcia, 187, Gràcia, 08012 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4025118,
+          "lng": 2.1630666
+        },
+        "title": "Autoescuela DAR",
+        "address": "Carrer de Bailèn, 217, Gràcia, 08037 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4012374,
+          "lng": 2.16473
+        },
+        "title": "Autoescuela La Universal",
+        "address": "Carrer de Bailèn, 181, Gràcia, 08012 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4058174,
+          "lng": 2.1623318
+        },
+        "title": "Autoescuela Joanic",
+        "address": "Carrer de Bruniquer, 67, 1, Gràcia, 08024 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3997298,
+          "lng": 2.168549
+        },
+        "title": "Autoescola SOY18",
+        "address": "Pg. de St. Joan, 111, local 2, L'Eixample, 08037 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4097914,
+          "lng": 2.1643401
+        },
+        "title": "RACC Autoescola Guinardó",
+        "address": "Carrer de Pi i Margall, 88, Gràcia, 08025 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4116273,
+          "lng": 2.1639429
+        },
+        "title": "Autoescuela SOY18 Guinardó",
+        "address": "Ronda del Guinardó, 26, Horta-Guinardó, 08024 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3970429,
+          "lng": 2.1718153
+        },
+        "title": "Автошкола Costa Drive Barcelona",
+        "address": "Carrer d'Aragó, 366, L'Eixample, 08009 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3935258,
+          "lng": 2.1809167
+        },
+        "title": "Autoescuela Aura",
+        "address": "Carrer d'Alí Bei, 44, L'Eixample, 08013 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3974978,
+          "lng": 2.1771562
+        },
+        "title": "AUTOESCUELA A-TRACCIÓ",
+        "address": "Carrer de la Diputació, 372, L'Eixample, 08013 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3970397,
+          "lng": 2.1815731
+        },
+        "title": "Autoescola 24H · Autoescuela Barcelona",
+        "address": "Carrer de Sardenya, 163, L'Eixample, 08013 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3949398,
+          "lng": 2.1874651
+        },
+        "title": "Autoescuela Roberto - Autoescuela en Barcelona",
+        "address": "Carrer dels Almogàvers, 68, Sant Martí, 08018 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3949398,
+          "lng": 2.1874651
+        },
+        "title": "Autoescuela Roberto - Autoescuela en Barcelona",
+        "address": "Carrer dels Almogàvers, 68, Sant Martí, 08018 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3906542,
+          "lng": 2.1790686
+        },
+        "title": "Autoescuela Gomar Bcn",
+        "address": "Carrer de Trafalgar, 74, Ciutat Vella, 08010 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4005895,
+          "lng": 2.1819512
+        },
+        "title": "Artigas",
+        "address": "Carrer de Lepant, 192, L'Eixample, 08013 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4073079,
+          "lng": 2.172703
+        },
+        "title": "Autoescuela Driving is cool",
+        "address": "Carrer de Lepant, 325, L'Eixample, 08025 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4081139,
+          "lng": 2.176757
+        },
+        "title": "AUTOESCOLA A-TRACCIÓ",
+        "address": "Carrer del Rosselló, 497, Eixample, 08025 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4049585,
+          "lng": 2.1785497
+        },
+        "title": "RACC Autoescola Sagrada Família",
+        "address": "C/ de Padilla, 228, Eixample, 08013 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4026867,
+          "lng": 2.1522761
+        },
+        "title": "RACC Autoescola Barcelona Gràcia",
+        "address": "Carrer de Bretón de los Herreros, 2, Gràcia, 08012 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4058731,
+          "lng": 2.1506251
+        },
+        "title": "Autoescuela Corsa Lesseps",
+        "address": "Carrer Gran de Gràcia, 266, Gràcia, 08012 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4061356,
+          "lng": 2.1493947
+        },
+        "title": "Autoescuela Madrazo",
+        "address": "Ronda del General Mitre, 248, Sarrià-Sant Gervasi, 08006 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.404683,
+          "lng": 2.1560346
+        },
+        "title": "Autoescuela Oton",
+        "address": "Carrer de Verdi, 56, Gràcia, 08012 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4068759,
+          "lng": 2.161579
+        },
+        "title": "Autoescola Escorial S.L.",
+        "address": "Carrer de l'Escorial, 23, Gràcia, 08024 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4136729,
+          "lng": 2.1617288
+        },
+        "title": "AUTOESCUELA SANLLEHY",
+        "address": "Av. de la Mare de Déu de Montserrat, 24, Horta-Guinardó, 08024 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.4108179,
+          "lng": 2.174981
+        },
+        "title": "Autoescola Traffic",
+        "address": "Carrer de Cartagena, 322, L'Eixample, 08025 Barcelona, España"
+      },
+      {
+        "position": {
+          "lat": 41.3949398,
+          "lng": 2.1874651
+        },
+        "title": "Autoescuela Roberto - Autoescuela en Barcelona",
+        "address": "Carrer dels Almogàvers, 68, Sant Martí, 08018 Barcelona, España"
       }
     ]
   }
